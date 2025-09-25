@@ -10,7 +10,7 @@ services:
       dockerfile: Dockerfile
     image: mahnoorr/devpublic01:latest  
     ports:
-      - 80:80
+      - 80:123
     volumes:
       - ./src:/var/www/php
       - ./.docker/nginx/conf.d:/etc/nginx/conf.d
